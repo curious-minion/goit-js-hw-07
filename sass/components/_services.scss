@@ -1,0 +1,43 @@
+/* Services */
+
+.services {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: getColor("basic-white");
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.services-item {
+  width: 370px;
+  margin-right: 30px;
+}
+
+.services-item:last-child {
+  margin-right: 0;
+}
+
+.offers {
+  position: relative;
+}
+
+.offer-item {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  padding: 27px 82px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.offer-item p {
+  color: getColor("basic-white");
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.14;
+}

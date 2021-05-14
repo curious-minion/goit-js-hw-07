@@ -1,0 +1,50 @@
+/* Features */
+
+.features {
+  padding-top: 94px;
+  background-color: getColor("basic-white");
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.feature-item {
+  width: 270px;
+  margin-right: 30px;
+}
+
+.feature-item:last-child {
+  margin-right: 0;
+}
+
+img {
+  display: block;
+}
+
+.subtitle {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: getColor("title-color");
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.icon-features {
+  @include centeredFlex();
+  justify-content: center;
+  height: 120px;
+
+  margin-bottom: 30px;
+  background: getColor("team-button-bgr");
+  border-radius: 4px;
+}
